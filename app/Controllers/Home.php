@@ -13,4 +13,8 @@ class Home extends BaseController
     {
         return view('tambah');
     }
+    public function tes(): string
+    {
+        return view('tes');
+    }
 }
