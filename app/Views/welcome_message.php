@@ -10,72 +10,108 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link href="<?= base_url('bootstrap-5.0.2/css/bootstrap.min.css') ?>" rel="stylesheet">
     <link href="<?= base_url('/css/layout.css') ?>" rel="stylesheet">
-    
+
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <!-- Navbar Brand -->
-            <!-- <img class="" src="<?= base_url('/img/Icon1.png') ?>" alt="Deskripsi gambar" width="20" height="20"> -->
-
-
-            <!-- Navbar Toggler -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="<?= base_url('/img/Icon1.png') ?>" alt="Deskripsi gambar" width="45" height="45">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-            <!-- Navbar Items -->
-            <div class="collapse navbar-collapse " id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item me-2">
-                        <a class="btn btn-dark" aria-current="page" style="border-radius: 50px;" href="<?= base_url('/') ?>">Home</a>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item me-2">
-                        <a class="nav-link" href="<?= base_url('/tambah') ?>">tambah</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href=" <?= base_url('/tambah') ?> ">Tambah</a>
                     </li>
-                    <li class="nav-item  mr-2">
+                    <li class="nav-item">
                         <form class="d-flex">
-                            <input class="form-control me-2 flex-grow-1" type="search" placeholder="Search" aria-label="Search" style="border-radius: 50px;width: 29cm;">
+                            <input class="form-control me-2" type="search" style="border-radius: 50px;" placeholder="Search" aria-label="Search">
                         </form>
                     </li>
                 </ul>
-                <ul class="navbar-nav ms-auto ">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Login</a>
-                    </li>
-                </ul>
+                <a class="nav-link " href="#">Logout</a>
             </div>
         </div>
     </nav>
 
 
     <div class="d1">
-        <a data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="<?= base_url('img/bantuan.jpg') ?>" alt=""> </a>
-        <img src="<?= base_url('img/bantuan.jpg') ?>" alt="">
-        <img src="https://picsum.photos/200/300" alt="">
-        <img src="<?= base_url('img/bantuan.jpg') ?>" alt="">
-        <img src="https://picsum.photos/300/100" alt="">
-        <img src="<?= base_url('img/bantuan.jpg') ?>" alt="">
-        <img src="https://picsum.photos/100/200" alt="">
-        <img src="https://picsum.photos/700/300" alt="">
-        <img src="<?= base_url('img/bantuan.jpg') ?>" alt="">
-        <img src="https://picsum.photos/300/100" alt="">
-        <img src="https://picsum.photos/100/200" alt="">
-        <img src="<?= base_url('img/bantuan.jpg') ?>" alt="">
-        <img src="https://picsum.photos/300/200" alt="">
-        <img src="<?= base_url('img/bantuan.jpg') ?>" alt="">
-        <img src="https://picsum.photos/200/300" alt="">
-        <img src="<?= base_url('img/bantuan.jpg') ?>" alt="">
-        <img src="https://picsum.photos/300/100" alt="">
-        <img src="<?= base_url('img/bantuan.jpg') ?>" alt="">
-        <img src="https://picsum.photos/100/200" alt="">
-        <img src="https://picsum.photos/300/200" alt="">
-        <img src="<?= base_url('img/bantuan.jpg') ?>" alt="">
-        <img src="https://picsum.photos/300/100" alt="">
-        <img src="https://picsum.photos/100/200" alt="">
-        <img src="<?= base_url('img/bantuan.jpg') ?>" alt="">
-        <img src="https://picsum.photos/300/200" alt="">
+        <div class="container">
+
+            <h1 class="fw-light text-center text-lg-start mt-4 mb-0">Thumbnail Gallery</h1>
+
+            <hr class="mt-2 mb-5">
+
+            <div class="row text-center text-lg-start">
+
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid rounded " src="https://source.unsplash.com/pWkk7iiCoDM/400x300" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid rounded " src="https://source.unsplash.com/aob0ukAYfuI/400x300" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid rounded" src="https://source.unsplash.com/EUfxH-pze7s/400x300" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid rounded" src="https://source.unsplash.com/M185_qYH8vg/400x300" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid rounded" src="https://source.unsplash.com/sesveuG_rNo/400x300" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid rounded" src="https://source.unsplash.com/AvhMzHwiE_0/400x300" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid rounded" src="https://source.unsplash.com/2gYsZUmockw/400x300" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid rounded" src="https://source.unsplash.com/EMSDtjVHdQ8/400x300" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid rounded" src="https://source.unsplash.com/8mUEy0ABdNE/400x300" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid rounded" src="https://source.unsplash.com/G9Rfc1qccH4/400x300" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid rounded" src="https://source.unsplash.com/aJeH0KcFkuc/400x300" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                        <img class="img-fluid rounded" src="https://source.unsplash.com/p2TQ-3Bh3Oo/400x300" alt="">
+                    </a>
+                </div>
+            </div>
+
+        </div>
     </div>
 
     <!-- Modal -->
@@ -87,7 +123,7 @@
                     <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
                 </div>
                 <div class="modal-body">
-                    <img src="<?= base_url('img/bantuan.jpg') ?>" alt="">
+                    <img src="<?= base_url('') ?>" alt="">
                 </div>
                 <div class="modal-footer">
 

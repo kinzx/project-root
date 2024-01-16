@@ -17,4 +17,8 @@ class Home extends BaseController
     {
         return view('tes');
     }
+    public function profile(): string
+    {
+        return view('profile');
+    }
 }
